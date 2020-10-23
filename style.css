@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/images/e1115afea56dcaf0c273a4f3d9fc7f3a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+    
+    
+    
+}
+.main{
+    height: 100%;
+    text-align: center;
+    margin-top: 20%;
+  
+
+
+}
+h1{
+    font-size: 30px;
+    font-weight: 500px;
+    color: rgb(207, 192, 221);
+    font-style: oblique;
+    text-shadow: 3px 3px 5px  rgba(0, 0, 255, 0.768);
+    
+    
+}
+p{
+    color: rgb(6, 19, 112);
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:475px){
+    .main{
+        margin-top: 50%;
+       
+    }
+    p{
+        color: darkgray;
+    }
+}
